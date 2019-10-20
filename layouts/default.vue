@@ -45,7 +45,7 @@
         computed: {
             ...mapGetters(['room']),
             isDarkTheme() {
-                return this.$route.name === 'room'
+                return false
             }
         },
         data() {
