@@ -44,8 +44,12 @@
         },
         computed: {
             ...mapGetters(['room']),
+
+            isRoomPage() {
+                return this.$route.name === 'room'
+            },
             isDarkTheme() {
-                return false
+                return this.isRoomPage
             }
         },
         data() {
