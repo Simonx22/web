@@ -24,6 +24,16 @@ a {
 
 a:hover {
     color: rgb(133, 133, 133);
+<<<<<<< HEAD
+=======
+}
+
+div.center {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%
+>>>>>>> d6ff2f95b01500501cb196cbf6e0e1620da34649
 }
 
 div.header {
@@ -232,12 +242,6 @@ div.content {
     bottom: 0;
     background-color: black;
     color: white
-}
-
-div.content.is-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 div.content.no-header {

@@ -93,11 +93,6 @@ div.portal-indicator {
     z-index: -1;
 }
 
-div.option h3.header {
-    margin-bottom: 0.5em;
-    color: black
-}
-
 div.option h3.header.active {
     margin-top: 0;
     margin-bottom: 1em
